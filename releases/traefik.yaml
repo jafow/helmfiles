@@ -10,8 +10,8 @@ helmDefaults:
 releases:
   - name: traefik
     namespace: kube-system
-    # chart: "../../charts/stable/traefik"
-    chart: "jafow/traefik"
+    chart: "../../charts/stable/traefik"
+    # chart: "jafow/traefik"
     labels:
       service: traefik
       stage: dev
